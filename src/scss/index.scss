@@ -1,4 +1,4 @@
-@import "card","chart";
+@import 'card', 'chart', 'cover',"footer";
 
 body {
 	margin: 0;
@@ -16,6 +16,8 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	word-wrap: break-word;
+	background-color: whitesmoke;
+	color: black;
 
 	h1 {
 		font-size: 3rem;
@@ -80,5 +82,3 @@ body {
 	flex-direction: column;
 	// background: black;
 }
-
-

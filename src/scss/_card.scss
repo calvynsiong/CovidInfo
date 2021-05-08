@@ -1,5 +1,5 @@
-.card{
-position: relative;
+.card {
+	position: relative;
 	width: 95%;
 	margin: 3rem;
 	max-width: 1570px;
@@ -13,50 +13,52 @@ position: relative;
 		padding: 1rem;
 	}
 
-    h1{
-        text-align:center;
-    }
+	h1 {
+		text-align: center;
+	}
 	.infected {
-		border-bottom: 30px solid rgba(0, 0, 255, 0.5);
+		border-left: 25px solid darkblue;
 	}
 	.recovered {
-		border-bottom: 30px solid rgba(0, 255, 0, 0.8);
+		border-left: 25px solid lightgreen;
 	}
 	.deaths {
-		border-bottom: 30px solid rgba(255, 0, 0, 0.7);
+		border-left: 25px solid red;
 	}
 
+	.grid {
+		margin: 1rem;
+		margin-bottom: 1rem;
+		width: 80%;
+		height: 80%;
+		padding: 1rem;
+		max-height: 25rem;
+		display: flex;
+		flex-basis: 100%;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		border-radius: 1em;
+		text-align: center;
+		box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
-    .grid{
-    margin: 1rem;
-	margin-bottom: 1rem;
-	width: 90%;
-	height: 80%;
-	max-height: 25rem;
-	display: flex;
-	padding: 1rem;
-	flex-basis: 100%;
-	flex-direction: column;
-	justify-content: space-around;
-    align-items: center;
-	border-radius: 1em;
-	text-align: center;
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+		&:hover {
+			transition: all 0.2s ease-out;
+			box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+			transform: scale(1.05);
+			background-color: white;
+		}
+		@media (max-width: 820px) {
+			height: 25rem;
+		}
+		@media (max-width: 420px) {
+			width: 80vw;
+			margin: 1rem 2rem;
+		}
 
-	@media (max-width: 820px) {
-		height: 25rem;
+		h3,
+		p {
+			margin-top: 1rem;
+		}
 	}
-	@media (max-width: 420px) {
-		width: 80vw;
-		margin: 1rem 2rem;
-	}
-
-	h3,
-	p {
-		margin-top: 1rem;
-	}
-
-
-
-    }
 }

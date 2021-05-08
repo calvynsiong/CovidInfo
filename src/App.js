@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Chart, Country } from './components';
+import { Card, Chart, Country, Cover, Footer } from './components';
 import { fetchCadData, fetchData } from './api';
 
 function App() {
@@ -38,6 +38,8 @@ function App() {
 	// console.log(state);
 
 	return (
+		<>
+			<Cover></Cover>
 		<main className='container'>
 			{/* Pass in an object with confirmed cases, recoveries, deaths */}
 			<Card data={global.data}></Card>
@@ -48,8 +50,10 @@ function App() {
 			<Chart
 				data={global.data}
 				country={global.country}
-				Canada={CadState}></Chart>
-		</main>
+					Canada={CadState}></Chart>
+			<Footer></Footer>
+			</main>
+			</>
 	);
 }
 

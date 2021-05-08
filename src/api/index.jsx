@@ -16,7 +16,7 @@ export const fetchCadData = async () => {
 				aVaccine: dailyData.avaccine,
 			};
 		});
-		modifiedData.splice(11, 1);
+		// modifiedData.splice(11, 1);
 		return modifiedData;
 	} catch (error) {
 		return error;

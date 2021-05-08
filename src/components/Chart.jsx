@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { fetchDailyData, fetchCadData } from '../api';
 import { Line, Bar, Pie } from 'react-chartjs-2';
+import { BsBarChartFill, BsFillPieChartFill } from "react-icons/bs";
+import { AiOutlineLineChart } from "react-icons/ai";
+
 
 // Destructured confirmed, recovered and deaths which are objects in themselves + array of countries
 const Chart = ({
@@ -38,18 +41,19 @@ const Chart = ({
 					{
 						label: 'All',
 						backgroundColor: [
-							"#FF0000",
-							"#FF8000",
-							"#FFFF00",
-							"#80FF00",
-							"#00FF00",
-							"#00FF80",
-							"#00FFFF",
-							"#0080FF",
-							"#0000CD",
-							"#8000FF",
-							"#9400D3",
-							"#FF0080",
+								"#FF0000A6",
+							"#FF8000A6",
+							"#FFFF00A6",
+							"#80FF00A6",
+							"#00FF00A6",
+							"#00FF80A6",
+							"#00FFFFA6",
+							"#0080FFA6",
+							"#0000CDA6",
+							"#8000FFA6",
+							"#bc5090A6",
+							"#FF0080A6",
+							"#003f5cA6"
 						],
 						data: dailyVaccine,
 					},
@@ -66,18 +70,19 @@ const Chart = ({
 					{
 						label: 'All',
 						backgroundColor: [
-							"#FF0000",
-							"#FF8000",
-							"#FFFF00",
-							"#80FF00",
-							"#00FF00",
-							"#00FF80",
-							"#00FFFF",
-							"#0080FF",
-							"#0000CD",
-							"#8000FF",
-							"#9400D3",
-							"#FF0080",
+								"#FF0000A6",
+							"#FF8000A6",
+							"#FFFF00A6",
+							"#80FF00A6",
+							"#00FF00A6",
+							"#00FF80A6",
+							"#00FFFFA6",
+							"#0080FFA6",
+							"#0000CDA6",
+							"#8000FFA6",
+							"#bc5090A6",
+							"#FF0080A6",
+							"#003f5cA6"
 						],
 						data: dailyVaccine,
 					},
@@ -94,18 +99,19 @@ const Chart = ({
 					{
 						label: 'All',
 						backgroundColor: [
-							"#FF0000",
-							"#FF8000",
-							"#FFFF00",
-							"#80FF00",
-							"#00FF00",
-							"#00FF80",
-							"#00FFFF",
-							"#0080FF",
-							"#0000CD",
-							"#8000FF",
-							"#9400D3",
-							"#FF0080",
+								"#FF0000A6",
+							"#FF8000A6",
+							"#FFFF00A6",
+							"#80FF00A6",
+							"#00FF00A6",
+							"#00FF80A6",
+							"#00FFFFA6",
+							"#0080FFA6",
+							"#0000CDA6",
+							"#8000FFA6",
+							"#bc5090A6",
+							"#FF0080A6",
+							"#003f5cA6"
 						],
 						data: dailyVaccine,
 					},
@@ -123,18 +129,19 @@ const Chart = ({
 					{
 						label: 'All',
 						backgroundColor: [
-							"#FF0000",
-							"#FF8000",
-							"#FFFF00",
-							"#80FF00",
-							"#00FF00",
-							"#00FF80",
-							"#00FFFF",
-							"#0080FF",
-							"#0000CD",
-							"#8000FF",
-							"#9400D3",
-							"#FF0080",
+							"#FF0000A6",
+							"#FF8000A6",
+							"#FFFF00A6",
+							"#80FF00A6",
+							"#00FF00A6",
+							"#00FF80A6",
+							"#00FFFFA6",
+							"#0080FFA6",
+							"#0000CDA6",
+							"#8000FFA6",
+							"#bc5090A6",
+							"#FF0080A6",
+							"#003f5cA6"
 						],
 						data: cumVaccine,
 					},
@@ -151,18 +158,19 @@ const Chart = ({
 					{
 						label: 'All',
 						backgroundColor: [
-							"#FF0000",
-							"#FF8000",
-							"#FFFF00",
-							"#80FF00",
-							"#00FF00",
-							"#00FF80",
-							"#00FFFF",
-							"#0080FF",
-							"#0000CD",
-							"#8000FF",
-							"#9400D3",
-							"#FF0080",
+								"#FF0000A6",
+							"#FF8000A6",
+							"#FFFF00A6",
+							"#80FF00A6",
+							"#00FF00A6",
+							"#00FF80A6",
+							"#00FFFFA6",
+							"#0080FFA6",
+							"#0000CDA6",
+							"#8000FFA6",
+							"#bc5090A6",
+							"#FF0080A6",
+							"#003f5cA6"
 						],
 						data: cumVaccine,
 					},
@@ -316,36 +324,42 @@ const Chart = ({
   
     
 
-    return <div>
+    return <section>
         <div className="chart-container">
 				{/* Depending on whether or not a country is selected, the display chart state or the global line chart will be displayed */}
 				{country ? displayChart : globalLineChart}
 
 				<div className="btn-container">
 					{/* EVent listeners that will change the chart */}
-					<button onClick={switchToBarChart}>Bar Chart</button>
-					<button onClick={switchToPieChart}>Pie Chart</button>
-            </div>
-            <div className="chart-container">
-                <h2>Total Vaccines administered in Canada</h2>
-                {displayCadChart ? displayCadChart: <h1>Choose a graph</h1>}
-                <div className="btn-container">
-					{/* EVent listeners that will change the chart */}
-					<button onClick={switchToCadBarChart}>Bar Chart</button>
-					<button onClick={switchToCadPieChart}>Pie Chart</button>
-					<button onClick={switchToCadLineChart}>Line Chart</button>
-            </div>
-                <h2>Daily Vaccines administered in Canada</h2>
-                {displayCadDailyChart?displayCadDailyChart: <h1>Choose a graph</h1>}
-                <div className="btn-container">
-					{/* EVent listeners that will change the chart */}
-					<button onClick={switchToCadDailyBarChart}>Bar Chart</button>
-					<button onClick={switchToCadDailyPieChart}>Pie Chart</button>
-					<button onClick={switchToCadDailyLineChart}>Line Chart</button>
-            </div>
+					<button onClick={switchToBarChart}> <BsBarChartFill></BsBarChartFill> </button>
+					<button onClick={switchToPieChart}><BsFillPieChartFill/></button>
+			</div>
+			<h1 className="canadian-header">Canada's Vaccine Progress</h1>
+            <div 
+			className="chart-container horizontal">
+                <div className="outline">
+					<h2>Total Vaccines Administered in Canada</h2>
+					{displayCadChart ? displayCadChart: <h1>Choose a graph</h1>}
+					<div className="btn-container">
+										{/* EVent listeners that will change the chart */}
+										<button onClick={switchToCadBarChart}><BsBarChartFill></BsBarChartFill></button>
+										<button onClick={switchToCadPieChart}><BsFillPieChartFill/></button>
+										<button onClick={switchToCadLineChart}><AiOutlineLineChart/></button>
+								</div>
+				</div>
+                <div className="outline">
+					<h2>Daily Vaccines Administered in Canada</h2>
+					{displayCadDailyChart?displayCadDailyChart: <h1>Choose a graph</h1>}
+					<div className="btn-container">
+										{/* EVent listeners that will change the chart */}
+										<button onClick={switchToCadDailyBarChart}><BsBarChartFill></BsBarChartFill> </button>
+										<button onClick={switchToCadDailyPieChart}><BsFillPieChartFill/></button>
+										<button onClick={switchToCadDailyLineChart}><AiOutlineLineChart/></button>
+								</div>
+				</div>
             </div>
 			</div>
-    </div>;
+    </section>;
 };
 
 export default Chart;
