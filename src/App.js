@@ -6,7 +6,7 @@ function App() {
 	const [global, setGlobal] = useState({ data: {}, country: '' });
 	const [CadState, setCadState] = useState({ Canada: {} });
 
-	// Load Canadian data (cumvaccs, daily vaccs, province)
+	// Load Canadian data (cumulative_vaccines, daily_vaccs, province)
 	useEffect(() => {
 		async function componentDidMount() {
 			const Canada = await fetchCadData();
