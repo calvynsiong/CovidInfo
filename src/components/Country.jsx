@@ -16,7 +16,8 @@ const Country = ({ handleCountryChange }) => {
 
 
 
-    return <>
+	return <>
+		<h1>Select a Country</h1>
         <FormControl margin="none">
             {/* Added an event listener that uses the country from the input value as the argument passed down the country change option */}
 			<NativeSelect defaultValue="" variant="filled" onChange={(e) => handleCountryChange(e.target.value)}>
