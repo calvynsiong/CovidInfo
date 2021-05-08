@@ -1,3 +1,4 @@
+@import "card","chart";
 
 body {
 	margin: 0;
@@ -28,19 +29,19 @@ body {
 	h2 {
 		font-size: 2rem;
 		@media (min-width: 768px) {
-			font-size: 3rem;
+			font-size: 2.25rem;
 		}
 		@media (min-width: 1280px) {
-			font-size: 4rem;
+			font-size: 2.5rem;
 		}
 	}
 	h3 {
 		font-size: 1.5rem;
 		@media (min-width: 768px) {
-			font-size: 2.5rem;
+			font-size: 1.75rem;
 		}
 		@media (min-width: 1280px) {
-			font-size: 3.5rem;
+			font-size: 2rem;
 		}
 	}
 	h4 {
@@ -69,3 +70,15 @@ body {
 		text-decoration: none;
 	}
 }
+
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	// background: black;
+}
+
+

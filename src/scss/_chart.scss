@@ -1,0 +1,31 @@
+.chart-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	max-width: 50rem;
+	font-size: 5rem;
+	margin-top: 2rem;
+	width: 85vw;
+
+	h2 {
+		text-align: center;
+	}
+
+	.btn-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	button {
+		padding: 1rem;
+		margin: 2rem 1rem;
+		border-radius: 999px;
+		background-color: black;
+		color: white;
+		font-size: 1rem;
+		width: clamp(5rem, 25vw, 8rem);
+	}
+}
