@@ -12,7 +12,7 @@ const Card = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     return (
 		<>
 		
-            <div><h1>Today's Global Stats</h1></div>
+            <div><h1>Today's Covid Stats</h1></div>
             
         <div className="card">
         
