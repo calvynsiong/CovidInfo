@@ -1,0 +1,74 @@
+$accent-color: #1390C5;
+$bg-color: #F8F8F8;
+$black-color: #333333;
+$stroke-color: #A6A6A6;
+$input-bg-color: #F5F5F5;
+
+body {
+  background-color: $bg-color;
+  color: $black-color;
+  p {
+    font-size: 1rem;
+  }
+}
+
+.accent-text {
+  color: $accent-color;
+}
+
+.fact-card-category {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $accent-color;
+  color: white;
+  font-weight: 700;
+  font-size: 0.7rem;
+  padding: 2px 10px;
+}
+
+.fact-card-icon {
+  float: left;
+  margin-right: 1rem;
+  align-self: center;
+  font-size: 1.5rem;
+}
+
+.fact-card-text {
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+input.form-control {
+  background-color: $input-bg-color;
+}
+
+button.btn-secondary,
+button.btn-secondary:hover,
+button.btn-secondary:focus,
+button.btn-secondary:active,
+button.btn-secondary:active:not(:disabled):not(:disabled),
+button.btn-secondary:target,
+.show .btn-secondary.dropdown-toggle,
+.show .btn-secondary.dropdown-toggle:focus {
+  background-color: $input-bg-color;
+  color: $black-color;
+  border: $stroke-color 1px solid;
+}
+
+.modal-dialog {
+  max-width: 900px;
+  @media (min-width: 576px) {
+    margin: 5rem auto;
+  }
+}
+
+.modal-body .row .col a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration-line: underline;
+}
