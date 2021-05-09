@@ -1,5 +1,7 @@
 # To Hacks project created by Calvyn Siong, Nathan Lew, Michelle Swolfs and Juneau Lim
 
+Live Site: https://vaccine-info.herokuapp.com/
+
 ## Inspiration
 The coronavirus pandemic has not only been a global health issue but also has brought upon a mass “infodemic” where hundreds of new articles and resources on COVID-19 are released daily. Not only have the constant updates become more confusing to navigate through the pandemic, but also COVID-19 misinformation has spread exponentially across social media. 
 
