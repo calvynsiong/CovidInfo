@@ -39,7 +39,7 @@ function Static() {
 
 	return (
 		<>
-			<Cover></Cover>
+			{/* <Cover></Cover> */}
 		<main className='container'>
 			{/* Pass in an object with confirmed cases, recoveries, deaths */}
 			<Card data={global.data}></Card>
