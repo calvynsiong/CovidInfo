@@ -1,4 +1,12 @@
-@import 'card', 'chart', 'cover',"footer";
+@import 'card', 'chart', 'cover',"footer", "fact";
+@fontface {
+  font-family: 'Roboto', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Roboto')
+}
+@fontface {
+  font-family: 'Poppins', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Roboto')
+}
 
 body {
 	margin: 0;
@@ -55,16 +63,16 @@ body {
 			font-size: 1.5rem;
 		}
 	}
-	p,
-	a {
-		font-size: 1.125rem;
-		@media (min-width: 768px) {
-			font-size: 1.5rem;
-		}
-		@media (min-width: 1280px) {
-			font-size: 1.75rem;
-		}
-	}
+	// p,
+	// a {
+	// 	font-size: 1.125rem;
+	// 	@media (min-width: 768px) {
+	// 		font-size: 1.5rem;
+	// 	}
+	// 	@media (min-width: 1280px) {
+	// 		font-size: 1.75rem;
+	// 	}
+	// }
 	ul {
 		list-style-type: none;
 	}

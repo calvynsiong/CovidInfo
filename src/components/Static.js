@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { Card, Chart, Country, Cover, Footer } from '.';
+import { fetchCadData, fetchData } from '../api';
 
-import { Card, Chart, Country, Cover, Footer } from './components';
-import { fetchCadData, fetchData } from './api';
-import Static from "./components/Static";
-
-function App() {
-<<<<<<< HEAD
+function Static() {
 	const [global, setGlobal] = useState({ data: {}, country: '' });
 	const [CadState, setCadState] = useState({ Canada: {} });
 
-	// Load Canadian data (cumulative_vaccines, daily_vaccs, province)
+	// Load Canadian data (cumvaccs, daily vaccs, province)
 	useEffect(() => {
 		async function componentDidMount() {
 			const Canada = await fetchCadData();
+			console.log('====================================');
+			console.log(Canada);
+			console.log('====================================');
 		}
 		componentDidMount();
 	}, []);
@@ -38,14 +37,24 @@ function App() {
 	};
 	// console.log(state);
 
-=======
->>>>>>> 2dfea000b56d1920b91132b366cd26d36ac1c406
 	return (
-		<BrowserRouter>
-			<Static />
-			<Footer />
-		</BrowserRouter>
-	)
+		<>
+			<Cover></Cover>
+		<main className='container'>
+			{/* Pass in an object with confirmed cases, recoveries, deaths */}
+			<Card data={global.data}></Card>
+			{/* Country picker gets passed the function that sets the country and it's corresponding data */}
+			<Country handleCountryChange={handleCountryChange}></Country>
+			{/* Chart gets passed the country and it's corresponding data directly for display (The country is altered by the handleCountryChange function) */}
+
+			<Chart
+				data={global.data}
+				country={global.country}
+					Canada={CadState}></Chart>
+			{/* <Footer></Footer> */}
+			</main>
+			</>
+	);
 }
 
-export default App;
+export default Static;
