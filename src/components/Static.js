@@ -52,7 +52,7 @@ function Static() {
 				country={global.country}
 					Canada={CadState}></Chart>
 				{/* <Footer></Footer> */}
-			</div>
+			</main>
 			</>
 	);
 }
