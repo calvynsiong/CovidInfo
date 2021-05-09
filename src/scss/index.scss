@@ -1,4 +1,10 @@
-@import 'card', 'chart', 'cover', 'footer', 'fact';
+$accent-color: #1390C5;
+$bg-color: #F8F8F8;
+$black-color: #333333;
+$stroke-color: #A6A6A6;
+$input-bg-color: #F5F5F5;
+
+@import 'card', 'chart', 'cover',"footer", "fact", "navbar";
 @fontface {
 	font-family: 'Roboto', sans-serif;
 	src: url('https://fonts.googleapis.com/css?family=Roboto');
@@ -29,7 +35,7 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	word-wrap: break-word;
-	background-color: whitesmoke;
+	background-color: $bg-color;
 	color: black;
 	display: flex;
 	flex-direction: column;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Col, Container, Dropdown, DropdownButton, Form, Row } from 'react-bootstrap';
 
-import '../scss/fact.scss';
+// import '../scss/_fact.scss';
 import FactCards from './FactCards';
 
 const data = [

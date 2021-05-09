@@ -39,8 +39,8 @@ function Static() {
 
 	return (
 		<>
-			<Cover></Cover>
-		<div className='container'>
+			{/* <Cover></Cover> */}
+		<main className='container'>
 			{/* Pass in an object with confirmed cases, recoveries, deaths */}
 			<Card data={global.data}></Card>
 			{/* Country picker gets passed the function that sets the country and it's corresponding data */}
