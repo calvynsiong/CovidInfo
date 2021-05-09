@@ -74,6 +74,72 @@ const data = [
     url: "https://www.who.int/news-room/feature-stories/detail/side-effects-of-covid-19-vaccines",
     icon: "🤒"
   },
+  {
+    category: "Side Effects",
+    myth: "Scientists claim Pfizer causes brain damage",
+    title: "There is no grounded scientific proof to show such side effects of Pfizer",
+    content: ['This paper was published by an anti-vaccine activist who believes that the U.S. government may have created COVID-19 and preemptively vaccinated some people through the unrelated MMR vaccine. It was published in a journal widely viewed to be predatory, which means it likely went through little to no peer review. “The paper does not serve as an evaluation of the Pfizer COVID-19 vaccine to induce prion-based disease in vaccine recipients,” Garry told us, “It is nonscientific speculation and fear-mongering by a known anti-vaccine campaigner.”',
+  'The study itself is a series of problematic assertions presented without evidence. As such the claim that scientists have “confirmed” that the Pfizer vaccine causes neurological damage from prion diseases is “False.”'],
+    img: "https://compote.slate.com/images/fb3403a0-6ffc-471a-8568-b0f01fa3bd6b.jpg",
+    provider: "Snopes",
+    url: "https://www.snopes.com/fact-check/pfizer-neurological-damage/",
+    icon: "🧠"
+  },
+  {
+    category: "Effectiveness",
+    myth: "The single dose J&J vaccine is more effective.",
+    title: "The J&J vaccine works differently than other available vaccines, but all combat COVID-19",
+    content: ["None of the approved vaccines contain a live virus. Vaccines don’t give you the disease. Instead, they provide your body with the ability to recognise and fight the infection they are designed to protect against. ",
+  "The Oxford/AstraZeneca vaccine, for example, uses a harmless virus that has been altered to replicate the Covid-19 virus. This teaches your body how to generate the right immune response."],
+    img: "https://media.npr.org/assets/img/2021/04/23/gettyimages-1232291997-e430e6dd75a3ab6676c30979c09e6f3dfddfcdaf-s800-c85.jpg",
+    provider: "MSU Today",
+    url: "https://msutoday.msu.edu/news/2021/vaccine-myths-and-scientific-facts",
+    icon: "💪"
+  },
+  {
+    category: "Side Effects",
+    myth: "The Oxford/Astra Zeneca vaccine is dangerous",
+    title: "There is a small risk of developing blood clots",
+    content: ["Some people are concerned about the risk of blood clots from the Oxford/Astra Zeneca vaccine. There have been a very small number of reports of an extremely rare form of blood clot in the cerebral veins occurring soon after vaccination. This type of blood clot is called sinus vein thrombosis. They can occur in people who haven’t been vaccinated. 5 per 10,000 of people will get a blood clot with the oral contraceptive pill. The risk of developing a blood clot from a long-haul flight is about 1 per 1,000. On the other hand, the risk of getting a blood clot after having the vaccine is just four per million. With that in mind, the risk from the vaccine is comparatively small.",
+  "Researchers found that someone who’s been vaccinated is no more likely to have one of these blood clots than the general population. The Joint Committee on Vaccination and Immunisation (JCVI) has advised that anyone under the age of 40 should be offered an alternative vaccine. This weighs up the risk of being seriously ill with COVID-19 or the extremely small risk of a serious adverse event."],
+    img: "https://www.sciencenews.org/wp-content/uploads/2021/04/040721_EG_astrazeneca_feat.jpg",
+    provider: "European Medicines Agency",
+    url: "https://www.ema.europa.eu/en/news/astrazenecas-covid-19-vaccine-ema-finds-possible-link-very-rare-cases-unusual-blood-clots-low-blood",
+    icon: "💀"
+  },
+  {
+    category: "Production",
+    myth: "COVID-19 vaccines have dangerous ingredients",
+    title: "All COVID-19 vaccines have been ethically made with safe ingredients",
+    content: ["There have been many claims around the ingredients of the Covid-19 vaccine - from foetal cells to microchips. Many of these claims are misleading. The vaccine was originally developed through utilising replicated human kidney cells which are filtered out of the final product.",
+  "The claim around microchips refers to an interview with Bill Gates. He said that ‘we will have some digital certificates’. He was talking about the infrastructure for safe, home-based testing – not the vaccine itself. The vaccines also don’t contain any egg proteins so is safe to give to anyone with egg allergies. The British Islamic Medical Association urge anyone who’s eligible to have the vaccine. It doesn’t contain pork gelatine and has negligible alcohol."],
+    img: "https://www.fda.gov/files/styles/main_image_medium/public/iStock-157317886.jpg",
+    provider: "Reuters",
+    url: "https://www.reuters.com/article/uk-factcheck-covid-vaccine-ingredients-idUSKBN2AQ2SW",
+    icon: "☢️"
+  },
+  {
+    category: "Effectiveness",
+    myth: "J & J isn’t as strong as the other vaccines like Pfizer",
+    title: "The Johnson & Johnson vaccine is still as strong as other alternatives and will combat COVID-19",
+    content: ['The Johnson & Johnson vaccine is the first of the three authorized COVID-19 vaccines that is offered in a single dose. The vaccine does not need to be kept frozen. The Johnson & Johnson vaccine is an adenovirus (or viral) vector vaccine while both the Pfizer and Moderna vaccines use mRNA technology. "Adenovirus" is the term for common viruses that cause a range of illnesses. ',
+  'Ultimately, the Johnson & Johnson vaccine is made differently and administered on a different timeline than the Pfizer and Moderna vaccines, but stimulates the same kind of immune response to protect you against SARS-CoV-2 infection.'],
+    img: "https://www.universityofcalifornia.edu/sites/default/files/jj-covid-1.jpg",
+    provider: "University of California",
+    url: "https://www.universityofcalifornia.edu/news/how-effective-johnson-johnson-covid-19-vaccine-here-s-what-you-should-know",
+    icon: "👎"
+  },
+  {
+    category: "Effectiveness",
+    myth: "Natural herd immunity is better than vaccinating",
+    title: "Herd immunity requires a high percentage of the population to be vaccinated for complete effectiveness",
+    content: ["The amount of natural immunity a person gets after an infection varies from person to person. Early evidence suggests that natural immunity may not last very long, according to the Centers for Disease Control and Prevention (CDC). Developing immunity from the vaccine is less risky than developing immunity naturally because there’s no way to predict the severity of your symptoms if you get COVID-19.",
+  "We expect that when 70% of the population has either received the vaccine or been infected, we will reach what is called “herd immunity,” meaning the chances of the virus still circulating are very low. Waiting until this number is reached naturally — without vaccinating the public — will keep COVID-19 around for much longer."],
+    img: "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/05/GettyImages-110883335_header-1024x575.jpg",
+    provider: "Mayo Clinic",
+    url: "https://www.mayoclinic.org/diseases-conditions/coronavirus/in-depth/herd-immunity-and-coronavirus/art-20486808",
+    icon: "🐄"
+  },
 ]
 
 const categories = new Set();

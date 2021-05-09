@@ -25,9 +25,19 @@ $input-bg-color: #F5F5F5;
 	}
 }
 
-footer {
-	background-color: $input-bg-color;
-	border-top: 1px solid $stroke-color;
-	padding: 1rem;
-	margin-top: 3rem;
+body {
+	footer {
+		background-color: $input-bg-color;
+		border-top: 1px solid $stroke-color;
+		padding: 1rem;
+		margin-top: 3rem;
+		font-family: 'Poppins', sans-serif;
+	
+		p, a, a.nav-link, a p {
+			font-size: 12px;
+			margin-bottom: 0;
+			padding: 0;
+			text-decoration: none;
+		}
+	}
 }

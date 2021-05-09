@@ -28,10 +28,9 @@ body {
 	box-sizing: border-box;
 	word-wrap: break-word;
 	background-color: $bg-color;
-	color: black;
+	color: $black-color;
 	display: flex;
 	flex-direction: column;
-	//   align-items: center;
 
 	h1 {
 		font-size: 3rem;
@@ -81,7 +80,6 @@ body {
 	// }
 	a {
 		color: $accent-color;
-		text-decoration: underline;
 	}
 }
 

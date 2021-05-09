@@ -217,328 +217,222 @@ const data = {
       },
     ]
 	},
-// 	QC: {
-// 		province: `Quebec`,
-// 		current: `Phase 2`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Vulnerable people and people with a significant loss of autonomy who live in residential and long-term care centres (CHSLDs) or in intermediate and family-type resources (RI‑RTFs).`,
-//         `Autonomous or semi-autonomous people who live in private seniors' homes (RPAs) or in certain closed residential facilities for older adults.`,
-// 			],
-// 			second: [
-// 				`Workers in the health and social services network who have contact with users.`,`
-// Adults under 60 years of age who have a chronic disease or health problem that increases the risk of complications of COVID-19, including those who provide essential services and have contact with users.
-// Adults ages 35+`,
-// 			],
-// 			third: [
-// 				`Adults aged 35 and under`,
-//         `Vaccination of children will be determined based on future vaccine studies`,
-// 			],
-// 		},
-// 	},
-// 	NS: {
-// 		province: `Nova Scotia`,
-// 		current: `Phase 3`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Healthcare workers who work directly with patients in hospital or their homes  `,`
-// people who work or live in long-term care facilities including designated caregivers`,`
-// people who live and work in Department of Community Services facilities`,
-// 			],
-// 			second: [
-// 				`anyone who works in a hospital and may come into contact with patients, starting with those aged 60+`,`
-// licensed community healthcare providers who provide in-person patient care and their care assistants`,`
-// people who live in large group settings and those who work directly with them`,`
-// front-line police officers`,
-// 			],
-// 			third: [`All remaining eligible Nova Scotians`],
-// 		},
-// 	},
-// 	PE: {
-// 		province: `Prince Edward Island`,
-// 		current: `Phase 2`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Residents and staff of long-term and community care`,`
-// Healthcare workers with direct patient contact at higher risk of COVID-19 exposure`,`
-// Seniors aged 80+`,`
-// Adults 18+ living in Indigenous communities`,`
-// Residents and staff of other residential or shared living facilities
-// Rotational workers like truck drivers`,
-// 			],
-// 			second: [
-// 				`Those in priority groups remaining from Phase 1`,`       
-// First responders including police, firefighters and power utility workers`,`
-// Adults aged under 65 in 5 year intervals`,
-// 			],
-// 			third: [
-// 				`Second dose for individuals in Phase 2 (16 weeks after first dose)`,
-// 			],
-// 		},
-// 	},
-// 	YT: {
-// 		province: `Yukon`,
-// 		current: `Phase 3`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Long-term care residents and staff at Whistle Bend Place, Thompson Centre and other Continuing Care staff`,`
-// Long-term care residents and staff at Copper Ridge, and Birch Lodge`,`
-// Homebound home care clients, and other Continuing Care staff`,`
-// Long-term care residents and staff at McDonald Lodge and high-risk health care staff in Dawson City `,`
-// High-risk health care staff in Whitehorse, including the General Hospital staff `,
-// 			],
-// 			second: [
-// 				`People living in 
-// Watson Lake (including Upper Liard and Lower Post residents),
-//  Beaver Creek,
-// Old Crow,
-// Dawson City,
-// Carcross and Tagish,
-// Teslin,
-// Pelly Crossing,
-// Burwash Landing and Destruction Bay,
-// Haines Junction ,
-// Carmacks,
-// Faro,
-// Mayo,
-// Ross River`,
-// 			],
-// 			third: [
-// 				`All remaining eligible Yukoners dependent on vaccine availability `,
-// 			],
-// 		},
-// 	},
-// 	NT: {
-// 		province: `Northwest Territories`,
-// 		current: `Phase 2`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Indivduals aged 60+ `,`
-// Indivudals with existing chronic disease and comorbidities`,`
-// Individuals with a likelihood of transmitting COVID-19 to those at high risk of severe illness and death`,`
-// Resident workers who live in the Northwest Territories but work regularly out of territory or at work camps with out of territory workers`,`
-// Living in a remote community `,
-// 			],
-// 			second: [
-// 				`All Northwest Territorians aged 18+ dependant on vaccine availability `,
-// 			],
-// 		},
-// 	},
-// 	NU: {
-// 		province: `Nunavut`,
-// 		current: `Phase 2`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Individuals in long term care centers`,` 
-// Individuals in elder centers `,
-// 			],
-// 			second: [`All remaining eligible Nunavummiuts`],
-// 		},
-// 	},
-// 	NL: {
-// 		province: `Newfoundland and Labrador`,
-// 		current: `Phase 2`,
-// 		phases: [
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//       {
-//         desc: "",
-//         target: "",
-//         groups: [
-//         ]
-//       },
-//     ]
-//     {
-// 			first: [
-// 				`Healthcare workers at high risk of exposure to COVID-19, and those who are directly involved in the pandemic response`,`
-// Seniors residing in congregate living settings`,`
-// Adults in remote and isolated Indigenous communities`,
-// 			],
-// 			second: [
-// 				`Adults who identify as First Nations, Inuit or Métis`,`
-// Staff, residents and essential visitors at congregate living settings`,`
-// Adults in marginalized populations where infection could have disproportionate consequences`,`
-// First responders`,`
-// Frontline health care workers who were not immunized in Phase 1 and who many come into direct contact with patients`,`
-// Clinically extremely vulnerable individuals ages 16 to 59`,`
-// Those who regularly travel in and out of the province for work`,`
-// Frontline essential workers with direct public contact and cannot work from home`,
-// 			],
-// 			third: [`Anyone else in priority groups remaining from Phase 1 or 2`],
-// 		},
-	// },
+	QC: {
+		province: `Quebec`,
+		current: `Phase 2`,
+		phases: [
+      {
+        desc: "Completed priority groups",
+        target: "Groups 1 and 3",
+        groups: [
+          `Vulnerable people and people with a significant loss of autonomy who live in residential and long-term care centres (CHSLDs) or in intermediate and family-type resources (RI‑RTFs).`,
+          `Autonomous or semi-autonomous people who live in private seniors' homes (RPAs) or in certain closed residential facilities for older adults.`,
+        ],
+      },
+      {
+        desc: "Priority groups in progress",
+        target: "Groups 2 and 4 through 10",
+        groups: [
+          `Workers in the health and social services network who have contact with users.`,`
+  Adults under 60 years of age who have a chronic disease or health problem that increases the risk of complications of COVID-19, including those who provide essential services and have contact with users.
+  Adults ages 35+`,
+        ],
+      },
+      {
+        desc: "Future recipients",
+        target: "Groups 10 and 11",
+        groups: [
+          `Adults aged 35 and under`,
+          `Vaccination of children will be determined based on future vaccine studies`,
+        ],
+      },
+    ]
+	},
+	NS: {
+		province: `Nova Scotia`,
+		current: `Phase 3`,
+		phases: [
+      {
+        desc: "Phase 1: initial doses",
+        target: "Paramedics & medical first responders",
+        groups: [
+          `Healthcare workers who work directly with patients in hospital or their homes  `,`
+  people who work or live in long-term care facilities including designated caregivers`,`
+  people who live and work in Department of Community Services facilities`,
+        ],
+      },
+      {
+        desc: "Phase 2: expanding access",
+        target: "Healthcare workers & ages 75+",
+        groups: [
+          `anyone who works in a hospital and may come into contact with patients, starting with those aged 60+`,`
+  licensed community healthcare providers who provide in-person patient care and their care assistants`,`
+  people who live in large group settings and those who work directly with them`,`
+  front-line police officers`,
+        ],
+      },
+      {
+        desc: "Phase 3: all Nova Scotians",
+        target: "Nova Scotians aged 16+",
+        groups: [`All remaining eligible Nova Scotians`]
+      },
+    ]
+	},
+	PE: {
+		province: `Prince Edward Island`,
+		current: `Phase 2`,
+		phases: [
+      {
+        desc: "Phase 1: at-risk groups",
+        target: "Seniors aged 80+",
+        groups: [
+          `Residents and staff of long-term and community care`,`
+  Healthcare workers with direct patient contact at higher risk of COVID-19 exposure`,`
+  Seniors aged 80+`,`
+  Adults 18+ living in Indigenous communities`,`
+  Residents and staff of other residential or shared living facilities
+  Rotational workers like truck drivers`,
+        ],
+      },
+      {
+        desc: "Phase 2: teen and adult access",
+        target: "Adults aged 60+ beginning with individuals ages 75+",
+        groups: [
+          `Those in priority groups remaining from Phase 1`,`       
+  First responders including police, firefighters and power utility workers`,`
+  Adults aged under 65 in 5 year intervals`,
+        ],
+      },
+      {
+        desc: "Phase 3: youth dosages",
+        target: "Spud Islanders aged 15 and under",
+        groups: [
+          `Second dose for individuals in Phase 2 (16 weeks after first dose)`,
+        ],
+      },
+    ]
+	},
+	YT: {
+		province: `Yukon`,
+		current: `Phase 3`,
+		phases: [
+      {
+        desc: "Phase 1: Priority populations",
+        target: "Long-term care residents & high risk workers",
+        groups: [
+          `Long-term care residents and staff at Whistle Bend Place, Thompson Centre and other Continuing Care staff`,`
+  Long-term care residents and staff at Copper Ridge, and Birch Lodge`,`
+  Homebound home care clients, and other Continuing Care staff`,`
+  Long-term care residents and staff at McDonald Lodge and high-risk health care staff in Dawson City `,`
+  High-risk health care staff in Whitehorse, including the General Hospital staff `,
+        ],
+      },
+      {
+        desc: "Phase 2: Rural Communities ",
+        target: "High Risk & Vulnerable Populations",
+        groups: [
+          `People living in 
+  Watson Lake (including Upper Liard and Lower Post residents),
+   Beaver Creek,
+  Old Crow,
+  Dawson City,
+  Carcross and Tagish,
+  Teslin,
+  Pelly Crossing,
+  Burwash Landing and Destruction Bay,
+  Haines Junction ,
+  Carmacks,
+  Faro,
+  Mayo,
+  Ross River`,
+        ],
+      },
+      {
+        desc: "Phase 3: all Yukoners",
+        target: "Yukoners aged 18+ ",
+        groups: [
+          `All remaining eligible Yukoners dependent on vaccine availability `,
+        ],
+      },
+    ]
+	},
+	NT: {
+		province: `Northwest Territories`,
+		current: `Phase 2`,
+		phases: [
+      {
+        desc: "Phase 1: Priority populations",
+        target: "High risk and vulnerable populations",
+        groups: [
+          `Indivduals aged 60+ `,`
+  Indivudals with existing chronic disease and comorbidities`,`
+  Individuals with a likelihood of transmitting COVID-19 to those at high risk of severe illness and death`,`
+  Resident workers who live in the Northwest Territories but work regularly out of territory or at work camps with out of territory workers`,`
+  Living in a remote community `,
+        ],
+      },
+      {
+        desc: "Phase 2: all Northwest Territorians",
+        target: "All Northwest Territorians",
+        groups: [
+          `All Northwest Territorians aged 18+ dependant on vaccine availability `,
+        ],
+      },
+    ]
+	},
+	NU: {
+		province: `Nunavut`,
+		current: `Phase 2`,
+		phases: [
+      {
+        desc: "Phase 1: Priority populations",
+        target: "Highest risk individuals ",
+        groups: [
+          `Individuals in long term care centers`,` 
+  Individuals in elder centers `,
+        ],
+      },
+      {
+        desc: "Phase 2: all Nunavummiuts",
+        target: "all Nunavummiuts aged 18+",
+        groups: [`All remaining eligible Nunavummiuts`]
+      },
+    ]
+	},
+	NL: {
+		province: `Newfoundland and Labrador`,
+		current: `Phase 2`,
+		phases: [
+      {
+        desc: "Phase 1: initial doses",
+        target: "Paramedics & medical first responders",
+        groups: [
+          `Healthcare workers at high risk of exposure to COVID-19, and those who are directly involved in the pandemic response`,`
+  Seniors residing in congregate living settings`,`
+  Adults in remote and isolated Indigenous communities`,
+        ],
+      },
+      {
+        desc: "Phase 2: expanding access",
+        target: "Healthcare workers & ages 75+",
+        groups: [
+          `Adults who identify as First Nations, Inuit or Métis`,`
+  Staff, residents and essential visitors at congregate living settings`,`
+  Adults in marginalized populations where infection could have disproportionate consequences`,`
+  First responders`,`
+  Frontline health care workers who were not immunized in Phase 1 and who many come into direct contact with patients`,`
+  Clinically extremely vulnerable individuals ages 16 to 59`,`
+  Those who regularly travel in and out of the province for work`,`
+  Frontline essential workers with direct public contact and cannot work from home`,
+        ],
+      },
+      {
+        desc: "Phase 3: all Nova Scotians",
+        target: "Nova Scotians aged 16+",
+        groups: [`Anyone else in priority groups remaining from Phase 1 or 2`]
+      },
+    ]
+	},
 };
 
 const provinces = {};
@@ -573,7 +467,7 @@ const Info = prop => {
           </Form.Control>
         </Col>
         <Col className="d-flex align-items-end flex-column">
-          <img src={`/images/${provinces[selectedProvince]}.svg`} alt={selectedProvince} height="250px" />
+          <img src={`/images/${provinces[selectedProvince].toLowerCase()}.svg`} alt={selectedProvince} height="250px" />
         </Col>
       </Row>
       {options[selectedOption] === "booking" && <Booking data={data[provinces[selectedProvince]]}/>}
