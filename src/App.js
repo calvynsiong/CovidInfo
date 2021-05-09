@@ -21,7 +21,7 @@ function App() {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mr-auto">
 							<Nav.Link href="/fact">Fact Checks</Nav.Link>
-							<Nav.Link href="/static">COVID Statics</Nav.Link>
+							<Nav.Link href="/static">COVID Statistics</Nav.Link>
 							<Nav.Link href="/info">Get Vaccinated</Nav.Link>
 							<h4 className="mt-4">PROVINCIAL INFO</h4>
 							<Nav.Link href="/info/bc">British Columbia</Nav.Link>
