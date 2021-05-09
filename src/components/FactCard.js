@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, Col, Image, Row, Modal } from "react-bootstrap";
+import { Card, Col, Row, Modal } from "react-bootstrap";
 
 const FactCard = ({ fact }) => {
   const [ showModal, setShowModal ] = useState(false);

@@ -91,7 +91,7 @@ const Fact = () => {
       (term ? (f.category.toLowerCase().includes(term.toLowerCase()) ||
       f.myth.toLowerCase().includes(term.toLowerCase()) ||
       f.title.toLowerCase().includes(term.toLowerCase()) ||
-      f.content.toLowerCase().includes(term.toLowerCase())) : true) &&
+      f.content.join().toLowerCase().includes(term.toLowerCase())) : true) &&
       (category!=="All" ? f.category === category : true));
     console.log(newFacts)
     setFilteredFacts(newFacts);
