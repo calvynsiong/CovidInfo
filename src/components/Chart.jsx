@@ -324,7 +324,8 @@ const Chart = ({
   
     
 
-    return <section>
+	return <>
+		<section>
         <div className="chart-container">
 				{/* Depending on whether or not a country is selected, the display chart state or the global line chart will be displayed */}
 				{country ? displayChart : globalLineChart}
@@ -359,7 +360,8 @@ const Chart = ({
 				</div>
             </div>
 			</div>
-    </section>;
+	</section>
+	</>
 };
 
 export default Chart;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Card, Chart, Country, Cover, Footer } from '.';
+import { Card, Chart, Country, Cover } from '.';
 import { fetchCadData, fetchData } from '../api';
 
 function Static() {
@@ -40,7 +40,7 @@ function Static() {
 	return (
 		<>
 			<Cover></Cover>
-		<main className='container'>
+		<div className='container'>
 			{/* Pass in an object with confirmed cases, recoveries, deaths */}
 			<Card data={global.data}></Card>
 			{/* Country picker gets passed the function that sets the country and it's corresponding data */}
@@ -51,8 +51,8 @@ function Static() {
 				data={global.data}
 				country={global.country}
 					Canada={CadState}></Chart>
-			{/* <Footer></Footer> */}
-			</main>
+				{/* <Footer></Footer> */}
+			</div>
 			</>
 	);
 }
