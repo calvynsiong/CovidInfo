@@ -4,16 +4,8 @@ $black-color: #333333;
 $stroke-color: #A6A6A6;
 $input-bg-color: #F5F5F5;
 
-@import 'card', 'chart', 'cover',"footer", "fact", "navbar";
-@fontface {
-	font-family: 'Roboto', sans-serif;
-	src: url('https://fonts.googleapis.com/css?family=Roboto');
-}
-@fontface {
-	font-family: 'Poppins', sans-serif;
-	src: url('https://fonts.googleapis.com/css?family=Roboto');
-}
-
+@import 'card', 'chart', 'cover',"footer", "fact", "navbar", "info";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Poppins&display=swap');
 #root {
 	position: relative;
 	display: flex;
@@ -25,7 +17,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	width: 100vw;
@@ -87,13 +79,9 @@ body {
 	// 		font-size: 1.75rem;
 	// 	}
 	// }
-	ul {
-		list-style-type: none;
-	}
-	p,
 	a {
-		text-decoration: none;
-		font-family: 'Roboto', sans-serif;
+		color: $accent-color;
+		text-decoration: underline;
 	}
 }
 

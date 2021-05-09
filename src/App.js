@@ -14,7 +14,7 @@ function App() {
 			<Navbar bg="light" expand={false}>
 				<Navbar.Brand>
 					<Link to="/">
-						<img src="images/logo.svg" alt="Vaccine Info logo" />
+						<img src="/images/logo.svg" alt="Vaccine Info logo" />
 					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />

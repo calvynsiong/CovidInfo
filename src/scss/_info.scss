@@ -1,0 +1,77 @@
+$accent-color: #1390C5;
+$bg-color: #F8F8F8;
+$black-color: #333333;
+$stroke-color: #A6A6A6;
+$input-bg-color: #F5F5F5;
+
+.info-card-wraper {
+  border: 1px solid $stroke-color;
+  background-color: $input-bg-color;
+  height: 100%;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.info-card-title{
+  border-bottom: 1px solid $stroke-color;
+  color: $accent-color;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.info-card-main {
+  padding: 0.5rem;
+}
+
+.info-card-sub {
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.info-card-body ul {
+  padding-left: 1.5rem;
+}
+
+.info-box {
+  border: 1px solid $stroke-color;
+  background-color: $input-bg-color;
+  padding: 2.5rem 1rem 1rem 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.info-accent-text {
+  color: $accent-color;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin: 2rem 0 1rem 0;
+}
+
+.info-icon-text {
+  font-size: 18rem;
+  position: absolute;
+  top: -120%;
+  @media (max-width: 918px) {
+    top: -65%;
+  }
+  @media (max-width: 768px) {
+    top: -35%;
+  }
+  @media (max-width: 416px) {
+    top: -10%;
+  }
+}
+
+.info-input {
+  color: $accent-color;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  border: none;
+  border-bottom: $accent-color 1px solid;
+  border-radius: 0;
+  background-color: $bg-color;
+  padding: 0;
+}

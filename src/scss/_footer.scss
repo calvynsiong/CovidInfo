@@ -1,3 +1,9 @@
+$accent-color: #1390C5;
+$bg-color: #F8F8F8;
+$black-color: #333333;
+$stroke-color: #A6A6A6;
+$input-bg-color: #F5F5F5;
+
 .footer {
 	width: 100vw;
 	text-align: center;
@@ -17,4 +23,11 @@
 	a {
 		color: navy;
 	}
+}
+
+footer {
+	background-color: $input-bg-color;
+	border-top: 1px solid $stroke-color;
+	padding: 1rem;
+	margin-top: 3rem;
 }
