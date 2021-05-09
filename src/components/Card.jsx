@@ -14,7 +14,7 @@ const Card = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 		
             <div><h1>Total Covid Statistics</h1></div>
             
-        <div className="card">
+        <div className="info-card">
         
             	<div className="grid infected">
 				<h2>Infected</h2>

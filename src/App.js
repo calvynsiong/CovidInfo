@@ -10,9 +10,6 @@ function App() {
 	useEffect(() => {
 		async function componentDidMount() {
 			const Canada = await fetchCadData();
-			console.log('====================================');
-			console.log(Canada);
-			console.log('====================================');
 		}
 		componentDidMount();
 	}, []);
