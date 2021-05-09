@@ -7,7 +7,7 @@ const Process = ({ data }) => {
   return (
     <React.Fragment>
       <Row>
-        <p className="text-center">
+        <p className="text-center mb-4">
         Getting the COVID-19 vaccine is just like getting any other shot. Here’s what you can expect on the day of:
         </p>
       </Row>
@@ -54,7 +54,7 @@ const Process = ({ data }) => {
                 <li>{l}</li>
               ))}
               </ul>
-              <a href="https://globalnews.ca/news/7769047/what-canadians-can-do-covid-vaccination/" target="_blank">
+              <a href="https://globalnews.ca/news/7769047/what-canadians-can-do-covid-vaccination/" target="_blank" rel="noreferrer">
                 <p className="mt-3">
                   <strong>Check out what you’re allowed to do after getting vaccinated</strong>
                 </p>

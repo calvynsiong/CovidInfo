@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, Container, Form, Image, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 
 import Booking from "./Booking";
@@ -455,7 +455,7 @@ const Info = prop => {
   
   return (
     <Container>
-      <Row className="mb-3">
+      <Row className="mb-2">
         <Col className="d-flex align-content-end flex-wrap">
           <h6>I live in</h6>
           <Form.Control as="select" value={selectedProvince} onChange={handleSelectProvince} className="info-input">

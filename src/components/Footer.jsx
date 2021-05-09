@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Row, Nav } from 'react-bootstrap';
-import {AiFillGithub} from "react-icons/ai"
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
                          className="mb-2"
                     />
                     <p className="mt-5 mb-5">
-                        Made by Michelle Swolfs, Nathan Lew, Calvyn Siong, Juneau Lim
+                        Made by Michelle Swolfs, Nathan Lew,<br /> Calvyn Siong, Juneau Lim
                     </p>
                 </Col>
                 <Col sm="12" md="3" lg="2" className="mb-2">
@@ -21,10 +20,10 @@ const Footer = () => {
                     <Link to="/static"><p>COVID Statistics</p></Link>
                     <Link to="/info"><p>Get Vaccinated</p></Link>
                     <p className="mt-2 mb-0">GENERAL INFO</p>
-                    <p><a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html" target="_blank">
+                    <p><a href="https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html" target="_blank" rel="noreferrer">
                         Government of Canada
                     </a></p>
-                    <p><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
+                    <p><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" rel="noreferrer">
                         World Health Organization
                     </a></p>
                 </Col>

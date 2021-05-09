@@ -187,7 +187,7 @@ const Fact = () => {
             </Col>
             <Col xs="2" sm="2">
               <DropdownButton 
-                title="filter" 
+                title="Filter" 
                 onSelect={handleFilterSelect}
                 variant="secondary">
                 {Array.from(categories).map(c => (<Dropdown.Item eventKey={c}>{c}</Dropdown.Item>))}

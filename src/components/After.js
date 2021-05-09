@@ -1,6 +1,5 @@
 import div from "react";
 import { Col, Row } from "react-bootstrap";
-import InfoCard from "./InfoCard";
 
 const After = ({ data }) => {
   console.log(data)

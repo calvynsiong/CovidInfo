@@ -7,7 +7,7 @@ const Booking = ({ data }) => {
   return (
     <React.Fragment>
       <Row>
-        <p className="text-center">
+        <p className="text-center mt-0 mb-4">
           {data.province}'s vaccination plan follows {Object.keys(data.phases).length}-stages. 
           <span className="accent-text"> We're corrently in {data.current}</span>
         </p>
@@ -30,7 +30,7 @@ const Booking = ({ data }) => {
       <Row className="mt-5">
         <p>
           If you qualify for a vaccination, 
-          <span className="accent-text"> book your appointment today</span>
+          <a href="https://covid-19.ontario.ca/book-vaccine/" target="_blank" rel="noreferrer">book your appointment today</a>
         </p>
       </Row>
     </React.Fragment>
